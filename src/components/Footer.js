@@ -15,7 +15,7 @@ export const Footer = () => {
               <a href="https://github.com/akshita-xyz" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src={navIcon2} alt="GitHub" /></a>
               <a href="https://www.instagram.com/akshita_shhh/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src={navIcon3} alt="Instagram" /></a>
             </div>
-            <p>My Portfolio (Made with Love)</p>
+            <p>My Portfolio (Made with Love) <br></br>      .</p>
           </Col>
         </Row>
       </Container>
