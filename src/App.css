@@ -976,19 +976,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width: 768px) {
+  /* Projects mobile optimization */
   .mystical-waves {
-    top: 5%;
+    top: 0;
     left: 0;
     right: 0;
     padding: 20px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mystical-waves .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .projects-showcase {
+    width: 100%;
+    max-width: 400px;
   }
   
   .waves-container {
     height: 250px;
+    width: 100%;
+    margin: 0 auto;
   }
   
   .waves-img {
     border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
   
   .project-logos-overlay {
@@ -998,17 +1021,299 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   
   .project-logo {
-    height: 100px;
-    width: 100px;
-    padding: 15px;
+    height: 80px;
+    width: 80px;
+    padding: 12px;
+  }
+  
+  .section-header {
+    margin-bottom: 30px;
+    padding: 0 20px;
   }
   
   .section-header h2 {
-    font-size: 40px;
+    font-size: 35px;
+    line-height: 1.2;
   }
   
   .section-header p {
     font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  /* Navbar mobile adjustments */
+  .navbar-toggler {
+    border: none;
+    padding: 4px 8px;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  .navbar-collapse {
+    margin-top: 20px;
+  }
+  
+  .navbar-text {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .social-icon {
+    gap: 15px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .social-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 10px 0;
+    margin: 5px 0;
+  }
+  
+  /* Banner mobile adjustments */
+  .banner {
+    padding: 80px 0 60px;
+    min-height: auto;
+  }
+  
+  .banner .container {
+    padding: 0 20px;
+  }
+  
+  .banner-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+  
+  .banner-text-content {
+    order: 2;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .banner-image-content {
+    order: 1;
+    margin-bottom: 0;
+  }
+  
+  .header-extreme-right-img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .banner h1 {
+    font-size: 32px !important;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 10px;
+    margin-bottom: 30px;
+  }
+  
+  .banner button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Skills mobile adjustments */
+  .skill-bx {
+    padding: 30px 20px;
+    margin: 0 10px;
+  }
+  
+  .skill h2 {
+    font-size: 35px;
+  }
+  
+  /* Contact popup mobile */
+  .contact-popup .modal-dialog {
+    margin: 20px;
+    max-width: calc(100% - 40px);
+  }
+  
+  .contact-popup-body {
+    padding: 20px 15px;
+  }
+  
+  .contact-popup-header {
+    padding: 15px 20px;
+  }
+  
+  .contact-popup-title {
+    font-size: 20px;
+  }
+  
+  .contact-value {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 12px 15px;
+    border-radius: 8px;
+  }
+  
+  .contact-value span {
+    font-size: 14px;
+    word-break: break-all;
+  }
+  
+  .copy-btn {
+    padding: 8px 15px;
+    font-size: 12px;
+    min-width: 70px;
+  }
+  
+  .social-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-btn {
+    min-width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    justify-content: center;
+  }
+  
+  .social-btn img {
+    width: 18px;
+    height: 18px;
+  }
+  
+  /* Footer mobile */
+  .footer {
+    padding: 30px 0 20px;
+  }
+  
+  .footer .social-icon {
+    margin-bottom: 15px;
+  }
+  
+  .footer .social-icon img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+  .section-header h2 {
+    font-size: 30px;
+  }
+  
+  .banner h1 {
+    font-size: 26px !important;
+  }
+  
+  .banner p {
+    font-size: 15px;
+    padding: 0 15px;
+    line-height: 1.6;
+  }
+  
+  .banner button {
+    padding: 12px 25px;
+    font-size: 15px;
+    min-height: 44px; /* Apple touch target minimum */
+  }
+  
+  .waves-container {
+    height: 200px;
+    padding: 10px;
+  }
+  
+  .project-logo {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    min-height: 44px; /* Touch target minimum */
+    min-width: 44px;
+  }
+  
+  .header-extreme-right-img {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .skill-bx {
+    padding: 25px 20px;
+    margin: 0 10px;
+  }
+  
+  .contact-popup-title {
+    font-size: 18px;
+  }
+  
+  .contact-popup .modal-dialog {
+    margin: 10px;
+    max-width: calc(100% - 20px);
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 12px 0;
+    margin: 8px 0;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icon a {
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+}
+
+/* Tablet landscape */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .waves-container {
+    height: 350px;
+  }
+  
+  .project-logo {
+    height: 120px;
+    width: 120px;
+    padding: 18px;
+  }
+  
+  .section-header h2 {
+    font-size: 42px;
+  }
+  
+  .header-extreme-right-img {
+    width: 220px;
+    height: 220px;
   }
 }
 
