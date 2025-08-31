@@ -4,6 +4,7 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { MysticalWaves } from "./components/MysticalWaves";
 import { Footer } from "./components/Footer";
+import { MobileMessage } from "./components/MobileMessage";
 import Parallax from "./components/parallax/parallax";
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
           <MysticalWaves />
         </div>
         <Footer />
+        <MobileMessage />
       </Router>
     </div>
   );
