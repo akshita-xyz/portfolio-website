@@ -31,9 +31,16 @@ html, body {
   min-height: 100vh;
 }
 
+/* Hide mobile message on desktop */
+.mobile-message-container {
+  display: none;
+}
+
 .App {
   background: transparent;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 /* Global container margins */
@@ -1050,6 +1057,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 30px 20px;
     z-index: 1000;
     text-align: center;
+    margin: 0;
   }
   
   .mobile-message-card {
@@ -1419,8 +1427,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 20px 0;
-  margin-top: 0;
+  padding: 15px 0 0 0;
+  margin: 0;
   background: transparent;
 }
 
