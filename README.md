@@ -9,7 +9,7 @@
 
 ##  Live Demo
 
-Experience the cosmic portfolio at: link
+Experience the cosmic portfolio at: https://akshitasharma.vercel.app/
 
 ##  Features
 
