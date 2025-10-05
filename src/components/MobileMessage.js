@@ -2,7 +2,6 @@ import React from 'react';
 import meImg from '../assets/img/me.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.png';
-import navIcon3 from '../assets/img/nav-icon3.svg';
 
 export const MobileMessage = () => {
   return (
@@ -39,15 +38,6 @@ export const MobileMessage = () => {
             <img src={navIcon2} alt="GitHub" />
           </a>
           
-          <a 
-            href="https://www.instagram.com/akshita_shhh/" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="mobile-social-link"
-            aria-label="Instagram"
-          >
-            <img src={navIcon3} alt="Instagram" />
-          </a>
         </div>
       </div>
     </div>

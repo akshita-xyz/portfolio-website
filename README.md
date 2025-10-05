@@ -42,8 +42,7 @@ Experience the cosmic portfolio at: https://akshitasharma.vercel.app/
 ### 📞 **Contact Integration**
 - **Beautiful contact popup** with glassmorphism design
 - **One-click contact access** from multiple locations
-- **Copy-to-clipboard functionality** for email and phone
-- **Social media integration** (LinkedIn, GitHub, Instagram)
+- **Social media integration** (LinkedIn, GitHub)
 
 ### ⚡ **Performance & Accessibility**
 - **Optimized images** and smooth animations
@@ -154,11 +153,9 @@ src/
 
 ## 🌐 Contact Information
 
-- **📧 Email**: akshita8793@gmail.com
 - **📱 Phone**: +91 8427032781
 - **💼 LinkedIn**: [akshita-sharma1234](https://www.linkedin.com/in/akshita-sharma1234)
 - **💻 GitHub**: [akshita-xyz](https://github.com/akshita-xyz)
-- **📷 Instagram**: [akshita_shhh](https://www.instagram.com/akshita_shhh/)
 
 ## 🚀 Deployment
 

@@ -4,7 +4,6 @@ import { ContactPopup } from "./ContactPopup";
 
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.png';
-import navIcon3 from '../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
 
 export const NavBar = () => {
@@ -44,7 +43,6 @@ export const NavBar = () => {
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/akshita-sharma1234" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src={navIcon1} alt="LinkedIn" /></a>
               <a href="https://github.com/akshita-xyz" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src={navIcon2} alt="GitHub" /></a>
-              <a href="https://www.instagram.com/akshita_shhh/" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><img src={navIcon3} alt="Twitter" /></a>
             </div>
             <button className="vvd" onClick={() => setShowContactPopup(true)}>
               <span>Let's Connect</span>
